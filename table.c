@@ -4,9 +4,12 @@ int main()
 {
 int columns;
 int rows;
-for (rows = 1; rows <= 10; rows++);
+int n1,n2;
+printf("enter the length of rows and columns\n");
+scanf("%d%d",n1,n2);
+for (rows = 1; rows <= n1; rows++);
 	{
-	for (columns = 1; columns <= 1000; columns * 10);
+	for (columns = 1; columns <= n2; columns * 10);
 		{
 		printf("%d", columns);
 		}
@@ -14,3 +17,4 @@ for (rows = 1; rows <= 10; rows++);
 	}
 return 0;
 }
+
